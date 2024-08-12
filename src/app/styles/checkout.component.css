@@ -1,0 +1,36 @@
+.checkout-container {
+  padding: 16px;
+  max-width: 600px;
+  margin: auto;
+ border-radius: 4px;
+}
+
+.checkout-container h2 {
+  margin-bottom: 16px;
+  font-size: 1.5rem;
+}
+
+.checkout-container p {
+  font-size: 1.5rem;
+  margin-bottom: 24px;
+}
+
+.checkout-container .checkout-total {
+  text-align: right;
+  margin: 24px 0;
+}
+
+.checkout-container button {
+  width: 50%;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: #7a3d00;
+  border: none;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.checkout-container button:hover {
+  background-color: #c87a3a;
+}
